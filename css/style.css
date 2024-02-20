@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* font-family: "Lato", sans-serif; */
+header{
+    background-color: #f6f9f9;
+    padding: 15px 0;
+}
+.header_wrapper{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+padding: 15px 0;
+
+align-items: center;
+
+}
+.logo{
+
+width: 20%;
+}
+.logo img{
+
+}
+nav{
+
+width: 50%;
+}
+nav ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: end;
+}
+nav ul li{
+
+margin-left: 50px;
+}
+nav ul li a{
+    
+text-decoration: none;
+    
+text-transform: uppercase;
+    
+color: #2d3950;
+}
+.banner{
+
+position: relative;
+}
+.banner img{
+
+width: 100%;
+}
+.banner_content{
+
+position: absolute;
+
+left: 50%;
+
+top: 50%;
+
+transform: translate(-50%, -50%);
+
+text-align: center;
+}
+.banner_content h1{
+    font-family: "Lato", sans-serif;
+color: #fff;
+
+font-size: 80px;
+
+text-transform: uppercase;
+}
+.banner_content span{
+
+display: block;
+
+height: 2px;
+
+width: 100%;
+
+background: #15a4fa;
+}
+.banner_content p{
+    font-family: "Lato", sans-serif;
+color: #fff;
+
+margin: 20px 0 40px;
+}
+.banner_content button{
+
+background: transparent;
+color: #fff;
+border: none;
+
+border: 1px solid #15a4fa;
+
+text-transform: capitalize;
+
+font-size: 14px;
+
+padding: 10px 20px;
+}
+.icon{
+    
+position: absolute;
+    
+bottom: 100px;
+    
+left: 50%;
+    
+transform: translate(-50%, 0);
+    
+color: #fff;
+}
+.banner_content button:hover{
+    background-color: rgb(111, 124, 210);
+    transition: .5s all ease-in-out;
+
+}
+.second_part{
+    padding: 40px 0;background-color: #f6f9f9;
+}
+.second{
+
+text-align: center;
+
+width: 65%;
+
+margin: auto;
+}
+.second h3{
+    font-family: "Lato", sans-serif;
+font-size: 40px;
+font-style: normal;
+
+color: #2d3950;
+font-family: "Lato", sans-serif;
+}
+.second p{
+  padding: 20px 0;  
+font-size: 18px;
+font-style: normal;   
+color: #999999;
+font-family: "Lato", sans-serif;
+}
+.third{
+    display: flex;
+    width: 50%;
+    padding: 70px 80px;
+    justify-content: space-between;
+    margin: auto;
+   
+    
+    
+}
